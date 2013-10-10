@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="row-fluid">
+    <div class="col-md-2">
+        <div class="list-group">
+            <a href="#" class="list-group-item">Chairs<span class="badge">14</span></a>
+            <a href="#" class="list-group-item">Couches<span class="badge">14</span></a>
+            <a href="#" class="list-group-item">Lamps<span class="badge">14</span></a>
+            <a href="#" class="list-group-item">Tables<span class="badge">14</span></a>
+            <a href="#" class="list-group-item">Hello<span class="badge">14</span></a>
+        </div>
+    </div>
+    <div class="col-md-10">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">An object !</h3>
+            </div>
+            <div class="panel-body">
+                It is awesome. Buy it right now.<span class="badge pull-right">42 €</span><br />
+                <div class="btn-group pull-right">
+                    <a type="button" href="/app_dev.php/Mobilis/ "class="btn btn-primary btn-sm">More Details</a>
+                    <a type="button" href="/app_dev.php/Mobilis/" class="btn btn-primary btn-sm">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Another one ! :o</h3>
+            </div>
+            <div class="panel-body">
+                Buy it right now too ! It's cheap and sooooo gooooood !<span class="badge pull-right">42 €</span><br />
+                <div class="btn-group pull-right">
+                    <a type="button" href="/app_dev.php/Mobilis/"class="btn btn-primary btn-sm">More Details</a>
+                    <a type="button" href="/app_dev.php/Mobilis/" class="btn btn-primary btn-sm">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

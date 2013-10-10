@@ -1,0 +1,7 @@
+mobilis_store_homepage:
+    pattern:  /Mobilis/
+    defaults: { _controller: MobilisStoreBundle:Index:index }
+
+mobilis_store_products:
+    pattern: /Mobilis/products/
+    defaults: { _controller: MobilisStoreBundle:Store:index }

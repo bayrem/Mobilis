@@ -1,0 +1,7 @@
+parameters:
+#    mobilis_admin.example.class: Mobilis\AdminBundle\Example
+
+services:
+#    mobilis_admin.example:
+#        class: %mobilis_admin.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

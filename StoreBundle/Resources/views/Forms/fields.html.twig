@@ -1,0 +1,15 @@
+{% block text_widget %}
+<div class="text_widget">
+    <input type="text" class="form-control" {{ block('attributes') }} />
+</div>
+{% endblock %}
+
+{% block email_widget %}
+<div class="email_widget">
+    <input type="email" class="form-control" {{ block('attributes') }} />
+</div>
+{% endblock %}
+
+{% block submit_widget %}
+    <input type="submit" class="btn btn-primary" {{ block('attributes') }} />
+{% endblock %}
